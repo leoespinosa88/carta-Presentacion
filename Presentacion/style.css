@@ -1,0 +1,166 @@
+:root{
+    --font-name: 'Roboto Slab', serif;
+    --font-title: 'Secular One', sans-serif;
+    --font-paragraph: 'Didact Gothic', sans-serif;
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(/imagenes/denis-sebastian-tamas-GyhtzbOUeVI-unsplash.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+
+.navbar{
+    padding: 30px 0 0 100px;
+    font-family: var(--font-name);
+    display: flex;
+}
+
+.container-presentation{
+    height: 650px;
+}
+
+.card-presentation{
+    display: block;
+    padding: 100px;
+    width: 700px;
+    height: 800px;
+    
+}
+
+.title-presentation{
+    font-size: 50px;
+    font-family: var(--font-title);
+
+    width: 600px;
+
+}
+
+u{
+    text-decoration: underline green;
+}
+
+
+.paragraph{
+    width: 400px;
+    
+    margin-top: 30px;
+
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: var(--font-paragraph);
+}
+
+.contact-mail{
+    text-decoration: underline green;
+    
+    
+    color: #fff;
+    text-transform: uppercase;
+    
+    width: 110px;
+    background-color: transparent;
+
+    display: block;
+    margin-top: 50px;
+
+    transition: 0.5s;
+    
+}
+
+.contact-mail:hover{
+    color: green;
+
+    font-size: 20px;
+}
+
+.card-img {
+    background-image: url(/imagenes/Captura\ de\ pantalla\ \(43\).png);
+    background-position: center;
+    background-size: cover;
+
+    width: 390px;
+    height: 550px;
+
+    position: absolute;
+    bottom: 130px;
+    left: 700px;
+}
+
+hr{
+    margin: 0 100px 60px 100px;
+}
+
+.card-lenguage{
+    margin: 0 100px 0 100px;
+    display: flex;
+}
+
+.lenguage{
+    font-family: var(--font-title);
+    font-size: 25px;
+
+    margin-right: 200px;
+}
+
+.projects{
+    
+    margin: 0 100px 0 100px;
+    
+    
+}
+
+.title-project{
+    font-size: 55px;
+    margin: 30px 0 45px 100px;
+    font-family: var(--font-title);
+    text-decoration: underline;
+
+}
+
+.img-project{
+   display: inline-block;
+    padding: 30px;
+    width: 450px;
+    margin-right: 80px;
+   
+}
+
+.details-img{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: var(--font-paragraph);
+    transition: 0.4s ease;
+}
+
+.details-img:hover{
+    color:yellow;
+    font-size: 20px;
+}
+
+.style-img{
+    display: flex;
+    width: 500px;
+    padding: 0;
+
+}
+
+.icon-navbar{
+    margin: 31px;
+    width: 44px;
+    height: 44px;
+    
+}
+
+.icon{
+    width: 51px;
+}
+
