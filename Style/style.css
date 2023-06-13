@@ -11,7 +11,7 @@
 }
 
 body{
-    background-image: url(/imagenes/denis-sebastian-tamas-GyhtzbOUeVI-unsplash.jpg);
+    background-image: url(../imagenes/denis-sebastian-tamas-GyhtzbOUeVI-unsplash.jpg);
     background-size: cover;
     color: aliceblue;
 }
@@ -82,7 +82,7 @@ u{
 }
 
 .card-img {
-    background-image: url(/imagenes/Captura43.png);
+    background-image: url(../imagenes/Captura43.png);
     background-position: center;
     background-size: cover;
 
